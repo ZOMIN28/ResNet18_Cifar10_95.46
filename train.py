@@ -10,7 +10,7 @@ from utils.ResNet import ResNet18
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 # 读数据
 batch_size = 128
-train_loader,valid_loader,test_loader = read_dataset(dbatch_size=batch_size,pic_path='dataset')
+train_loader,valid_loader,test_loader = read_dataset(batch_size=batch_size,pic_path='dataset')
 # 加载模型(使用预处理模型，修改最后一层，固定之前的权重)
 n_class = 10
 model = ResNet18()
