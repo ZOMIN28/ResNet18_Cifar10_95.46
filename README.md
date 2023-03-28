@@ -86,3 +86,6 @@ optimizer = optim.SGD(model.parameters(), lr=lr, momentum=0.9, weight_decay=5e-4
 
 完整的代码已上传至我的`github`
 注意：若要运行代码，需要在项目文件夹中创建名为checkpoint的文件夹，用于存放参数文件。
+预训练模型链接（百度云盘）：
+链接：https://pan.baidu.com/s/1yKXWWf1UEXS_gsWnM6sFDA 
+提取码：z66g
