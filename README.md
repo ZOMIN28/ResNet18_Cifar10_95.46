@@ -89,3 +89,9 @@ optimizer = optim.SGD(model.parameters(), lr=lr, momentum=0.9, weight_decay=5e-4
 预训练模型链接（百度云盘）：
 链接：https://pan.baidu.com/s/1yKXWWf1UEXS_gsWnM6sFDA 
 提取码：z66g
+
+#### 6 版本
+python == 3.6
+torch == 1.10.2
+torchvision == 0.11.3
+numpy == 1.19.5
