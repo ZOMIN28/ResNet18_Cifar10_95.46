@@ -14,7 +14,7 @@ batch_size = 16
 # percentage of training set to use as validation
 valid_size = 0.2
 
-def read_dataset(batch_size=16,valid_size=0.2,num_workers=0,pic_path='dataset'):
+def read_dataset(batch_size=16,valid_size=0.2,num_workers=4,pic_path='dataset'):
     """
     batch_size: Number of loaded drawings per batch
     valid_size: Percentage of training set to use as validation
