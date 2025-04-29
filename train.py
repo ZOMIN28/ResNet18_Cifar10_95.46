@@ -29,7 +29,7 @@ criterion = nn.CrossEntropyLoss().to(device)
 n_epochs = 250
 valid_loss_min = np.Inf # track change in validation loss
 accuracy = []
-lr = 0.01
+lr = 0.001
 counter = 0
 for epoch in tqdm(range(1, n_epochs+1)):
 
